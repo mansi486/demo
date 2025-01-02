@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url('your-image.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e55b4c;
+}
+
+/* Why Visuals Matter Section */
+.why-visuals {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.why-visuals h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Our Approach Section */
+.our-approach {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.our-approach h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.approach-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
